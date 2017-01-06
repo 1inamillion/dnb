@@ -19,6 +19,16 @@ body{
   margin-bottom:250px;
 }
 
+.movie-info{
+  margin-top:250px;
+  margin-bottom:250px;
+}
+
+.act-info{
+  margin-top:250px;
+  margin-bottom:250px;
+}
+
 .card-content {
   color:#696969;
 }
