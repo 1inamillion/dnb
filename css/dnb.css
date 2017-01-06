@@ -6,6 +6,11 @@ body{
   text-align:center;
 }
 
+.title{
+  margin-top:50px;
+  margin-bottom:50px;
+}
+
 .card-content {
   color:#696969;
 }
