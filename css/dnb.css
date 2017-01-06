@@ -6,7 +6,17 @@ body{
 
 .title{
   margin-top:150px;
-  margin-bottom:250px;
+  margin-bottom:150px;
+}
+
+.album-info{
+  margin-top:150px;
+  margin-bottom:150px;
+}
+
+.live-info{
+  margin-top:150px;
+  margin-bottom:150px;
 }
 
 .card-content {
