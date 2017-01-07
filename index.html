@@ -31,6 +31,13 @@
   <!-- Compiled and minified JavaScript -->
   <script src="js/materialize.min.js"></script>
 
+  <script type="text/javascript">
+  $(document).ready(function(){
+    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+    $('.modal').modal();
+  });
+  </script>
+
   <div class="container center-align">
 
     <div class="title animated fadeIn">
@@ -107,13 +114,12 @@
           </div>
           <div class="card-content">
             <p>Instrumental emo post rock band from Tokyo, Japan.</p>
-            <p>All the members of this band has a huge dick.</p>
-            <p>Please let me know if you wanna watch some of these you like,</p>
-            <p>We'll show you , in return, opening your asshole for us!</p>
+            <p>We'll show you amazing live performance and excited power of band sound without HUMAN VOICE!</p>
+            <p>Please watch our live videos from links below, and follow us on Twitter if you get interested.</p>            
           </div>
           <div class="card-action right-align">
-            <a href="https://twitter.com/1inamillion_jpn" target="_blank">TWITTER</a>
-            <a href="https://www.youtube.com/channel/UC6LrI69b4inLSRbtFTEHztw" target="_blank">VIDEOS</a>
+            <a class="btn blue" href="https://twitter.com/1inamillion_jpn" target="_blank">TWITTER</a>
+            <a class="btn red" href="https://www.youtube.com/channel/UC6LrI69b4inLSRbtFTEHztw" target="_blank">VIDEOS</a>
           </div>
         </div>
       </div>
@@ -128,7 +134,8 @@
             <p>The most emotional instrumental rock band in Kichijoji, Japan. </p>
           </div>
           <div class="card-action right-align">
-            <a href="https://www.youtube.com/watch?v=VAgRzRGbsWE" target="_blank">LIVE VIDEO</a>
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn red" href="#modal1">VIDEO</a>
           </div>
         </div>
       </div>
@@ -143,7 +150,8 @@
             <p>All the members of this band are always friendly and affluence.</p>
           </div>
           <div class="card-action right-align">
-            <a href="https://www.youtube.com/watch?v=EosGz97fqEY" target="_blank">LIVE VIDEO</a>
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn red" href="#modal2">VIDEO</a>
           </div>
         </div>
       </div>
@@ -158,8 +166,9 @@
             <p>Minimal but giving you fun a lot, let's dance with them!</p>
           </div>
           <div class="card-action right-align">
-            <a href="https://www.youtube.com/watch?v=TBL6YS_KtEo" target="_blank">LIVE VIDEO</a>
-          </div>
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn red" href="#modal3">VIDEO</a>
+           </div>
         </div>
       </div>
 
@@ -173,7 +182,8 @@
             <p>Crazy talented instrumental math-rock trio from Kita-Senju, Tokyo.</p>
           </div>
           <div class="card-action right-align">
-            <a href="https://www.youtube.com/watch?v=Wu8JUxB7a3k" target="_blank">LIVE VIDEO</a>
+            <!-- Modal Trigger -->
+            <a class="waves-effect waves-light btn red" href="#modal4">VIDEO</a>
           </div>
         </div>
       </div>
@@ -181,7 +191,14 @@
     </div>
     <!-- rowのおわり --> 
 
-    <a href="https://twitter.com/1inamillion_JPN" class="twitter-follow-button white-text" data-show-count="false" target="_blank">Twitter@1inamillion_JPN</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="messages">
+      <p><i class="material-icons animated pulse infinite"  style="font-size:6em;">thumb_up</i></p>
+      <h5> Thank you for visiting us!</h5>
+      <p>We are looking forward to meeting you at our release party!</p>
+      <p>Latest infomation will be announced by our Twitter account,</p>
+      <p>please check and follow us.</p>
+      <a href="https://twitter.com/1inamillion_JPN" class="twitter-follow-button white-text" data-show-count="false" target="_blank">Twitter@1inamillion_JPN</a>
+    </div>
 
   </div>
   <!-- こんてなのおわり -->
@@ -213,4 +230,50 @@
     </div>
   </footer>
 
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/VAgRzRGbsWE" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/EosGz97fqEY" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TBL6YS_KtEo" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
+  <div id="modal4" class="modal">
+    <div class="modal-content">
+      <div class="video-container">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wu8JUxB7a3k" frameborder="0" allowfullscreen></iframe>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
+    </div>
+  </div>
+
+            
 </body>
