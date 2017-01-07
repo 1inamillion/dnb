@@ -8,6 +8,9 @@
   <!--Import materialize.css-->
   <link rel="stylesheet" href="css/materialize.min.css">
 
+  <!-- animated css -->
+  <link rel="stylesheet" href="css/animate.css">
+
   <!-- 独自CSS -->
   <link rel="stylesheet" href="css/dnb.css">
 
@@ -30,16 +33,17 @@
 
   <div class="container center-align">
 
-    <div class="title">
+    <div class="title animated fadeIn">
       <h5 style="font-weight:500;">1inamillion</h5>
       <h6>1st mini album</h6>
       <h5 style="font-weight:900;">DYNAMITE NAMA-BEER</h5>
-      <img id="beer_icon" src="img/1mirikun-big.png" width="84" height="84">
-      <h4 style="font-style:italic;"><b>2017.02.04</b></h4>
+      <img id="beer_icon" class="animated bounce infinite" src="img/1mirikun-big.png" width="44" height="44">
+      <h5 style="font-weight:700;">2017.02.04</h5>
     </div>
 
     <div class="album-info">
-      <h5><i class="material-icons">album</i></h5>
+      <h5><a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped" data-position="top" data-delay="100" data-tooltip="Hi, this is the new album's detail!"><i class="material-icons">album</i></a></h5>
+      <br>
       <p>1inamillion 1st mini album</p>
       <p style="font-weight:500;">DYNAMITE NAMA-BEER</p>
       <br>
@@ -54,7 +58,8 @@
     </div>
 
     <div class="live-info">
-      <h5><i class="material-icons">cake</i></h5>
+      <h5><a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped" data-position="top" data-delay="100" data-tooltip="Wow, this is the release party!"><i class="material-icons">cake</i></a></h5>
+      <br>
       <p>1inamillion Presents</p>
       <p>"DYNAMITE NAMA-BEER" RELEASE PARTY</p>
       <h5 style="font-weight:900;">PLAYLAND</h5>
@@ -72,7 +77,7 @@
         <li>
           <div class="collapsible-header red-text text-darken-1"><i class="material-icons">card_giftcard</i><b>How to reserve tickets?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></div>
           <div class="collapsible-body white grey-text text-darken-3">
-            <p><a class="orange-text text-lighten-5" href="mailto:1inamillion1000000@gmail.com?subject=20170204-PLAYLAND-Reservation&amp;body=お名前とチケットお取り置き枚数をご記入ください">1inamillion1000000@gamil.com</a><br><br>              本文にお名前とお取り置き枚数をご記入の上、上記メールアドレスに送信してください。
+            <p><a class="red-text text-darken-1" href="mailto:1inamillion1000000@gmail.com?subject=20170204-PLAYLAND-Reservation&amp;body=お名前とチケットお取り置き枚数をご記入ください">1inamillion1000000@gamil.com</a><br><br>              本文にお名前とお取り置き枚数をご記入の上、上記メールアドレスに送信してください。
               <br>件名の記載は任意です。<br><br>
               <span><small>Please text us to the address written above, notice that your name and the number of your tickets have been written.</small></span></p>
           </div>
@@ -81,14 +86,16 @@
     </div>
 
     <div class="movie-info">
-      <h5><i class="material-icons">movie</i></h5>
+      <h5><a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped" data-position="top" data-delay="10" data-tooltip="OMG, this is a trailer movie...!""><i class="material-icons">movie</i></a></h5>
+      <br>
       <div class="video-container">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/8JeDIquvb34" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
 
     <div class="row act-info">
-      <h5><i class="material-icons">group</i></h5>
+      <h5><a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped" data-position="top" data-delay="10" data-tooltip="These are amazing bands that will perform at the party!"><i class="material-icons">group</i></a></h5>
+      <br>
       <div class="col s12 m12">
         <div class="card">
           <div class="card-image">
@@ -115,7 +122,7 @@
             <span class="card-title"><b>CARNIVAL</b></span>
           </div>
           <div class="card-content">
-            <p>The most emotional instrumental rock band in Kichijoji, Japan.</p>
+            <p>The most emotional instrumental rock band in Kichijoji, Japan. </p>
           </div>
           <div class="card-action right-align">
             <a href="https://www.youtube.com/watch?v=VAgRzRGbsWE" target="_blank">LIVE VIDEO</a>
@@ -130,7 +137,7 @@
             <span class="card-title"><b>sprawl</b></span>
           </div>
           <div class="card-content">
-            <p>All the members of this band are always friendly, kind, and affluence. They love eito(band).</p>
+            <p>All the members of this band are always friendly and affluence.</p>
           </div>
           <div class="card-action right-align">
             <a href="https://www.youtube.com/watch?v=EosGz97fqEY" target="_blank">LIVE VIDEO</a>
@@ -141,11 +148,11 @@
       <div class="col s12 m6">
         <div class="card">
           <div class="card-image">
-            <img src="img/sprawl.jpg">
+            <img src="img/mantle.jpg">
             <span class="card-title"><b>the mantle brothers</b></span>
           </div>
           <div class="card-content">
-            <p>Minimal but giving you fun a lot. They will change everywhere to dance floor.</p>
+            <p>Minimal but giving you fun a lot, let's dance with them!</p>
           </div>
           <div class="card-action right-align">
             <a href="https://www.youtube.com/watch?v=TBL6YS_KtEo" target="_blank">LIVE VIDEO</a>
@@ -177,16 +184,18 @@
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5>1inamillion are</h5>
+          <h6>1inamillion</h6>
           <small class="grey-text text-lighten-4">Shingo Fujitani(Gt)</small><br>
           <small class="grey-text text-lighten-4">Suguruguruguru(Gt)</small><br>
-          <small class="grey-text text-lighten-4">Shun Enokimoto(Gt)</small><br>
-          <small class="grey-text text-lighten-4">Kazuya Sakamoto(Gt)</small><br>
+          <small class="grey-text text-lighten-4">Shun Enokimoto(Ba)</small><br>
+          <small class="grey-text text-lighten-4">Kazuya Sakamoto(Dr)</small><br>
         </div>
+        
         <div class="col l4 offset-l2 s12">
-          <h5 class="white-text">Contact for us</h5>
+          <br><br>
+          <h6 class="white-text">Contact for us</h6>
           <ul>
-            <li><a class="orange-text text-lighten-5" href="mailto:1inamillion1000000@gmail.com?subject=20170204-PLAYLAND-Reservation&amp;body=お名前とチケットお取り置き枚数をご記入ください">1inamillion1000000@gmail.com</a></li>
+            <li><small><a class="orange-text text-lighten-5" href="mailto:1inamillion1000000@gmail.com?subject=20170204-PLAYLAND-Reservation&amp;body=お名前とチケットお取り置き枚数をご記入ください">1inamillion1000000@gmail.com</a></small></li>
           </ul>
         </div>
       </div>
