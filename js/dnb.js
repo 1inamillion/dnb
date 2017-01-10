@@ -1,16 +1,18 @@
 var _html;
 var video_html;
 var first_pos = 500;
-var second_pos = 1300;
+var second_pos = 1100;
 var third_pos = 2000;
 var fourth_pos = 2500;
 var final_pos = 4500;
+var end_pos = 5200;
 var scr_count;
 var ALBUM_ON = false;
 var LIVE_ON = false;
 var MOVIE_ON = false;
 var ACT_ON = false;
 var MES_ON = false;
+var END = false;
 
 $(function () {
 
@@ -166,48 +168,18 @@ $(function () {
             <a href="https://twitter.com/1inamillion_JPN" target="_blank" class="twitter-follow-button" data-show-count="false">@1inamillion_JPN</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
             */}).toString().replace(/(\n)/g, '').split('*')[1];
             $(".messages").append(_html);
-            $('.act-info').show();
+            $('.act-info').show();            
             ACT_ON = true;
         }
 
         if (scr_count > final_pos && MES_ON == false) {
             $('.messages').show();
-            $('.blank-space').hide();
             MES_ON = true;
         }
-    });
 
-    $('#btn0').click(function () {
-        setTimeout(function () {
-            video_html = (function () {/*
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/i45XqfyOflg" frameborder="0" allowfullscreen></iframe>
-            */}).toString().replace(/(\n)/g, '').split('*')[1];
-            $('#modal0 .modal-content').html("<p>hogehoge</p>");
-        }, 1000);
-
+        if (scr_count > end_pos && END == false) {
+            $('.blank-space').slideUp();
+            END = true;
+        }
     });
-    // $('#btn1').click(function(){
-    //     video_html = (function () {/*
-    //     <iframe width="560" height="315" src="https://www.youtube.com/embed/VAgRzRGbsWE" frameborder="0" allowfullscreen></iframe>
-    //     */}).toString().replace(/(\n)/g, '').split('*')[1];
-    //     $('#modal1 .video-container').html(video_html);
-    // });
-    // $('#btn2').click(function(){
-    //     video_html = (function () {/*
-    //     <iframe width="560" height="315" src="https://www.youtube.com/embed/EosGz97fqEY" frameborder="0" allowfullscreen></iframe>
-    //     */}).toString().replace(/(\n)/g, '').split('*')[1];
-    //     $('#modal2 .video-container').html(video_html);
-    // });
-    // $('#btn3').click(function(){
-    //     video_html = (function () {/*
-    //     <iframe width="560" height="315" src="https://www.youtube.com/embed/TBL6YS_KtEo" frameborder="0" allowfullscreen></iframe>
-    //     */}).toString().replace(/(\n)/g, '').split('*')[1];
-    //     $('#modal3 .video-container').html(video_html);
-    // });
-    // $('#btn4').click(function(){
-    //     video_html = (function () {/*
-    //     <iframe width="560" height="315" src="https://www.youtube.com/embed/Wu8JUxB7a3k" frameborder="0" allowfullscreen></iframe>
-    //     */}).toString().replace(/(\n)/g, '').split('*')[1];
-    //     $('#modal4 .video-container').html(video_html);
-    // });
 });
