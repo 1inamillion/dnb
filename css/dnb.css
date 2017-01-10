@@ -15,7 +15,10 @@ body{
 }
 
 .live-info{
-  margin-top:250px;
+  margin-top:250px;  
+}
+
+.collapsible{
   margin-bottom:250px;
 }
 

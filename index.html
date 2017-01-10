@@ -31,12 +31,7 @@
   <!-- Compiled and minified JavaScript -->
   <script src="js/materialize.min.js"></script>
 
-  <script type="text/javascript">
-  $(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal').modal();
-  });
-  </script>
+  <script type="text/javascript" src="js/dnb.js"></script>
 
   <div class="container center-align">
 
@@ -48,246 +43,83 @@
       <h5 style="font-weight:700;">2017.02.04</h5>
     </div>
 
-    <div class="album-info">
-      <h5><a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped" data-position="top" data-delay="100" data-tooltip="Hi, this is the new album's detail!"><i class="material-icons">album</i></a></h5>
-      <br>
-      <p>1inamillion 1st mini album</p>
-      <h5 style="font-weight:500;">DYNAMITE NAMA-BEER</h5>
-      <br>
-      <p>1.Blue</p>
-      <p>2.Super Summer Line</p>
-      <p>3.1000000gravity</p>
-      <p>4.Utopia</p>
-      <p>5.3mangrove</p>
-      <p>6.Shoes</p>
-      <br>
-      <p>2017.02.04 OUT / <span style="font-style:italic;">1,000 JPY</span></p>
+    <div class="album-info animated fadeIn">
+      <h5><a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped" data-position="top" data-delay="100"
+          data-tooltip="Hi, this is the new album's detail!"><i class="material-icons">album</i></a></h5>
     </div>
 
-    <div class="live-info">
-      <h5><a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped" data-position="top" data-delay="100" data-tooltip="Wow, this is the release party!"><i class="material-icons">cake</i></a></h5>
-      <br>
-      <p>1inamillion Presents</p>
-      <p>"DYNAMITE NAMA-BEER" RELEASE PARTY</p>
-      <h5 style="font-weight:900;">PLAYLAND</h5>
-      <p><b>2017.02.04 at KICHIJOJI-WARP</b></p>
-      <br>
-      <p>1inamillion</p>
-      <p>CARNIVAL</p>
-      <p>sprawl</p>
-      <p>the mantle brothers</p>
-      <p>AGATHA</p>
-      <br>
-      <p>OPEN 17:30 / START 18:00</p>
-      <p>Admission Fee / <span style="font-style:italic;">2,000 JPY</span></p>
-      <ul class="collapsible" data-collapsible="accordion">
-        <li>
-          <div class="collapsible-header red-text text-darken-1"><i class="material-icons">card_giftcard</i><b>How to reserve tickets?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></div>
-          <div class="collapsible-body white grey-text text-darken-3">
-            <p>
-              <a class="red-text text-darken-1" href="mailto:1inamillion1000000@gmail.com?subject=20170204-PLAYLAND-Reservation&amp;body=お名前とチケットお取り置き枚数をご記入ください">1inamillion1000000@gmail.com</a><br><br>
-              本文にお名前とお取り置き枚数をご記入の上、上記メールアドレスに送信してください。
-              <br>件名の記載は任意です。<br><br>
-              <span><small>Please text us to the address written above, notice that your name and the number of your tickets have been written.</small></span><br><br>
-              Twitterをご利用の場合はリプライ,DMでもお受けいたしております。<br><br>
-              <a href="https://twitter.com/1inamillion_JPN" class="btn blue darken-2" data-show-count="false" target="_blank">● Twitterで予約</a>
-            </p>
-          </div>
-        </li>
-      </ul>
+    <div class="live-info animated bounceInLeft">
+      <h5><a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped" data-position="top" data-delay="100"
+          data-tooltip="Wow, this is the release party!"><i class="material-icons">cake</i></a></h5>
     </div>
+    <ul class="collapsible animated zoomIn" data-collapsible="accordion">
+      <li>
+        <div class="collapsible-header red-text text-darken-1"><i class="material-icons">card_giftcard</i><b>How to reserve tickets?&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></div>
+        <div class="collapsible-body white grey-text text-darken-3">
+          <p>
+            <a class="red-text text-darken-1" href="mailto:1inamillion1000000@gmail.com?subject=20170204-PLAYLAND-Reservation&amp;body=お名前とチケットお取り置き枚数をご記入ください">1inamillion1000000@gmail.com</a><br><br>            本文にお名前とお取り置き枚数をご記入の上、上記メールアドレスに送信してください。
+            <br>件名の記載は任意です。<br><br>
+            <span><small>Please text us to the address written above, notice that your name and the number of your tickets have been written.</small></span><br><br>            Twitterをご利用の場合はリプライ,DMでもお受けいたしております。
+            <br><br>
+            <a href="https://twitter.com/1inamillion_JPN" class="btn blue darken-2" data-show-count="false" target="_blank">● Twitterで予約</a>
+          </p>
+        </div>
+      </li>
+    </ul>
 
-    <div class="movie-info">
-      <h5><a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped" data-position="top" data-delay="10" data-tooltip="OMG, this is a trailer movie...!""><i class="material-icons">movie</i></a></h5>
+
+    <div class="movie-info animated flash">
+      <h5>
+        <a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped" data-position="top" data-delay="10"
+          data-tooltip="OMG, this is a trailer movie...!" "><i class="material-icons ">movie</i></a></h5>
       <br>
-      <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/8JeDIquvb34" frameborder="0" allowfullscreen></iframe>
+      <div class="video-container ">
+          <iframe width="560 " height="315 " src="https://www.youtube.com/embed/8JeDIquvb34 " frameborder="0 " allowfullscreen></iframe>
       </div>
     </div>
 
-    <div class="row act-info">
-      <h5><a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped" data-position="top" data-delay="10" data-tooltip="These are amazing bands that will perform at the party!"><i class="material-icons">group</i></a></h5>
-      <br>
-      <div class="col s12 m12">
-        <div class="card">
-          <div class="card-image">
-            <img src="img/1inamillion.jpg">
-            <span class="card-title"><b>1inamillion</b></span>
-          </div>
-          <div class="card-content">
-            <p>Instrumental emo post rock band from Tokyo, Japan.</p>
-            <p>We'll show you amazing live performance and excited power of band sound without HUMAN VOICE!</p>
-            <p>Please watch our live videos from links below, and follow us on Twitter if you get interested.</p>            
-          </div>
-          <div class="card-action right-align">
-            <a class="btn blue" href="https://twitter.com/1inamillion_jpn" target="_blank">TWITTER</a>            
-            <!-- Modal Trigger -->
-            <a class="waves-effect waves-light btn red" href="#modal0">VIDEO</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s12 m6">
-        <div class="card">
-          <div class="card-image">
-            <img src="img/carnival.jpg">
-            <span class="card-title"><b>CARNIVAL</b></span>
-          </div>
-          <div class="card-content">
-            <p>The most emotional instrumental rock band in Kichijoji, Japan. </p>
-          </div>
-          <div class="card-action right-align">
-            <!-- Modal Trigger -->
-            <a class="waves-effect waves-light btn red" href="#modal1">VIDEO</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s12 m6">
-        <div class="card">
-          <div class="card-image">
-            <img src="img/sprawl.jpg">
-            <span class="card-title"><b>sprawl</b></span>
-          </div>
-          <div class="card-content">
-            <p>All the members of this band are always friendly and affluence.</p>
-          </div>
-          <div class="card-action right-align">
-            <!-- Modal Trigger -->
-            <a class="waves-effect waves-light btn red" href="#modal2">VIDEO</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col s12 m6">
-        <div class="card">
-          <div class="card-image">
-            <img src="img/mantle.jpg">
-            <span class="card-title"><b>the mantle brothers</b></span>
-          </div>
-          <div class="card-content">
-            <p>Minimal but giving you fun a lot, let's dance with them!</p>
-          </div>
-          <div class="card-action right-align">
-            <!-- Modal Trigger -->
-            <a class="waves-effect waves-light btn red" href="#modal3">VIDEO</a>
-           </div>
-        </div>
-      </div>
-
-      <div class="col s12 m6">
-        <div class="card">
-          <div class="card-image">
-            <img src="img/agatha.jpg">
-            <span class="card-title"><b>AGATHA</b></span>
-          </div>
-          <div class="card-content">
-            <p>Crazy talented instrumental math-rock trio from Kita-Senju, Tokyo.</p>
-          </div>
-          <div class="card-action right-align">
-            <!-- Modal Trigger -->
-            <a class="waves-effect waves-light btn red" href="#modal4">VIDEO</a>
-          </div>
-        </div>
-      </div>
-
+    <div class="row act-info animated bounceIn ">
+      <h5><a class="btn-floating btn-large waves-effect waves-light orange darken-1 tooltipped " data-position="top
+          " data-delay="10 " data-tooltip="These are amazing bands that will perform at the party! "><i class="material-icons ">group</i></a></h5>
     </div>
-    <!-- rowのおわり --> 
+     
+    <div class="messages animated lightSpeedIn ">      
+      <p><i class="material-icons animated pulse infinite "  style="font-size:6em; ">thumb_up</i></p>      
+    </div>
 
-    <div class="messages">
-      <p><i class="material-icons animated pulse infinite"  style="font-size:6em;">thumb_up</i></p>
-      <h5> Thank you for visiting us!</h5>
-      <p>We are looking forward to meeting you at our release party!</p>
-      <p>Latest infomation will be announced by our Twitter account,</p>
-      <p>please check and follow us.</p>
-      <a href="https://twitter.com/1inamillion_JPN" target="_blank" class="twitter-follow-button" data-show-count="false">@1inamillion_JPN</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div class="blank-space ">
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
     </div>
 
   </div>
   <!-- こんてなのおわり -->
 
-  <footer class="page-footer left-align amber darken-1">
-    <div class="container">
-      <div class="row">
-        <div class="col l6 s12">
+  <footer class="page-footer left-align amber darken-1 ">
+    <div class="container ">
+      <div class="row ">
+        <div class="col l6 s12 ">
           <h6>1inamillion</h6>
-          <small class="grey-text text-lighten-4">Shingo Fujitani(Gt)</small><br>
-          <small class="grey-text text-lighten-4">Suguruguruguru(Gt)</small><br>
-          <small class="grey-text text-lighten-4">Shun Enokimoto(Ba)</small><br>
-          <small class="grey-text text-lighten-4">Kazuya Sakamoto(Dr)</small><br>
+          <small class="grey-text text-lighten-4 ">Shingo Fujitani(Gt)</small><br>
+          <small class="grey-text text-lighten-4 ">Suguruguruguru(Gt)</small><br>
+          <small class="grey-text text-lighten-4 ">Shun Enokimoto(Ba)</small><br>
+          <small class="grey-text text-lighten-4 ">Kazuya Sakamoto(Dr)</small><br>
         </div>
         
-        <div class="col l4 offset-l2 s12">
+        <div class="col l4 offset-l2 s12 ">
           <br><br>
-          <h6 class="white-text">Contact for us</h6>
+          <h6 class="white-text ">Contact for us</h6>
           <ul>
-            <li><small><a class="orange-text text-lighten-5" href="mailto:1inamillion1000000@gmail.com?subject=20170204-PLAYLAND-Reservation&amp;body=お名前とチケットお取り置き枚数をご記入ください">1inamillion1000000@gmail.com</a></small></li>
+            <li><small><a class="orange-text text-lighten-5 " href="mailto:1inamillion1000000@gmail.com?subject=20170204-PLAYLAND-Reservation&amp;body=お名前とチケットお取り置き枚数をご記入ください ">1inamillion1000000@gmail.com</a></small></li>
           </ul>
         </div>
       </div>
     </div>
-    <div class="footer-copyright">
-      <div class="container">
+    <div class="footer-copyright ">
+      <div class="container ">
         <small>© 2017 1inamillion, Suguruguruguru(@suguru3193)</small>
       </div>
     </div>
   </footer>
-
-  <!-- Modal Structure -->
-  <div id="modal0" class="modal">
-    <div class="modal-content">
-      <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/i45XqfyOflg" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="modal-footer">        
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-  <div id="modal1" class="modal">
-    <div class="modal-content">
-      <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/VAgRzRGbsWE" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-  <div id="modal2" class="modal">
-    <div class="modal-content">
-      <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/EosGz97fqEY" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-  <div id="modal3" class="modal">
-    <div class="modal-content">
-      <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/TBL6YS_KtEo" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-  <div id="modal4" class="modal">
-    <div class="modal-content">
-      <div class="video-container">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/Wu8JUxB7a3k" frameborder="0" allowfullscreen></iframe>
-      </div>
-    </div>
-    <div class="modal-footer">
-      <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Close</a>
-    </div>
-  </div>
-
-            
 </body>
