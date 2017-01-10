@@ -3,7 +3,7 @@ var video_html;
 var first_pos = 400;
 var second_pos = 1100;
 var third_pos = 2000;
-var fourth_pos = 3000;
+var fourth_pos = 2800;
 var final_pos = 4500;
 var scr_count;
 var ALBUM_ON = false;
