@@ -6,7 +6,6 @@ var third_pos = 1800;
 var fourth_pos = 2800;
 var final_pos = 4500;
 var scr_count;
-
 var ALBUM_ON = false;
 var LIVE_ON = false;
 var MOVIE_ON = false;
