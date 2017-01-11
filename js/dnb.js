@@ -1,7 +1,7 @@
 var _html;
 var video_html;
 var first_pos = 500;
-var second_pos = 1100;
+var second_pos = 1000;
 var third_pos = 2000;
 var fourth_pos = 2500;
 var final_pos = 4500;
@@ -44,9 +44,7 @@ $(function () {
 
     $(window).scroll(function () {
         scr_count = $(document).scrollTop();
-        console.log(scr_count);
-        console.log(MOVIE_ON);
-
+//         console.log(scr_count);
         if (scr_count > first_pos && ALBUM_ON == false) {
             _html = (function () {/*
             <br>
