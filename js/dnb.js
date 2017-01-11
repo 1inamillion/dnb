@@ -1,6 +1,6 @@
 var _html,video_html,first_pos=500,second_pos=1e3,third_pos=2e3,fourth_pos=2500,final_pos=4500,end_pos=5200,scr_count,ALBUM_ON=!1,LIVE_ON=!1,MOVIE_ON=!1,ACT_ON=!1,MES_ON=!1,END=!1;
 $(function () {$(".modal").modal(),$(".album-info").hide(),$(".live-info").hide(),$(".movie-info").hide(),$(".act-info").hide(),$(".messages").hide(),$(".collapsible").hide();
-    _html = "<br><p>1inamillion 1st mini album</p><h5 style="font-weight:500;">DYNAMITE NAMA-BEER</h5><br><p>1.Blue</p><p>2.Super Summer Line</p><p>3.1000000gravity</p><p>4.Utopia</p><p>5.3mangrove</p><p>6.Shoes</p><br><p>2017.02.04 OUT / <span style="font-style:italic;">1,000 JPY</span></p>";
+    _html = "<br><p>1inamillion 1st mini album</p><h5 style='font-weight:500;'>DYNAMITE NAMA-BEER</h5><br><p>1.Blue</p><p>2.Super Summer Line</p><p>3.1000000gravity</p><p>4.Utopia</p><p>5.3mangrove</p><p>6.Shoes</p><br><p>2017.02.04 OUT / <span style='font-style:italic;'>1,000 JPY</span></p>";
       $(".album-info").append(_html);    
 $(window).scroll(function () {
     scr_count = $(document).scrollTop();
