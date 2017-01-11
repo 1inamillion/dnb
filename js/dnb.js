@@ -178,7 +178,7 @@ $(function () {
         }
 
         if (scr_count > end_pos && END == false) {
-//             $('.blank-space').slideUp();
+            $('.blank-space').slideUp();
             END = true;
         }
     });
