@@ -6,7 +6,7 @@ $(window).scroll(function () {
     scr_count = $(document).scrollTop();
 
     if (scr_count > first_pos && ALBUM_ON == false) {
-            _html = "<br><p>1inamillion Presents</p><p>DYNAMITE NAMA-BEER RELEASE PARTY</p><h5 style='font-weight:900;'>PLAYLAND</h5><p><b>2017.02.04 at KICHIJOJI-WARP</b></p><br><p>1inamillion</p><p>CARNIVAL</p><p>sprawl</p><p>the mantle brothers</p><p>AGATHA</p><br><p>OPEN 17:30 / START 18:00</p><p>Admission Fee / <span style="font-style:italic;">2,000 JPY</span></p>";
+            _html = "<br><p>1inamillion Presents</p><p>DYNAMITE NAMA-BEER RELEASE PARTY</p><h5 style='font-weight:900;'>PLAYLAND</h5><p><b>2017.02.04 at KICHIJOJI-WARP</b></p><br><p>1inamillion</p><p>CARNIVAL</p><p>sprawl</p><p>the mantle brothers</p><p>AGATHA</p><br><p>OPEN 17:30 / START 18:00</p><p>Admission Fee / <span style='font-style:italic;'>2,000 JPY</span></p>";
             $(".live-info").append(_html);
             $('.album-info').show();
             ALBUM_ON = true;
