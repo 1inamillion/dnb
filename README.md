@@ -1,2 +1,2 @@
 # dnb
-This is a repository for the temp pages(ads, or special pages).
+1inamillion 1st mini album "DYNAMITE NAMA-BEER" Special Web Site
